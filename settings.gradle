@@ -1,0 +1,5 @@
+include ':MemorizingTrustManager'
+project(':MemorizingTrustManager').projectDir = new File('libs/MemorizingTrustManager')
+// project(':example').projectDir = new File('libs/MemorizingTrustManager/example')
+
+rootProject.name = 'Conversations'
